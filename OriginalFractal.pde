@@ -7,7 +7,6 @@ public void draw(){
   myFractal(250, 250, 200);
 }
 public void myFractal(int x, int y, int siz){
-  int random = (int)(Math.random() * 40);
   rect(x, y, siz, siz);
   if(siz > 10){
      fill(0);
